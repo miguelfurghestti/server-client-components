@@ -25,7 +25,7 @@ export function FipeForm() {
   }
 
   async function listarMarcas() {
-    let marcasPermitidas = [];
+    let marcasPermitidas: string[] = [];
 
     if (query === "cars/brands") {
       marcasPermitidas = marcasPermitidasCarros;
