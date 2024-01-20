@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  button {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  select {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+}
+
+.botoes {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.activeButton {
+  background-color: black;
+  color: #ffffff;
+}
