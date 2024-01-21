@@ -14,6 +14,7 @@
   }
 
   select {
+    width: 400px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
@@ -24,6 +25,12 @@
     border: 1px solid black;
     margin-top: 1rem;
     padding: 8px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
   }
 }
 
@@ -37,4 +44,8 @@
 .activeButton {
   background-color: black;
   color: #ffffff;
+}
+
+.veiculoValor {
+  margin-top: 1rem;
 }
